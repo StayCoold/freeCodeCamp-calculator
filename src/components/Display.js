@@ -11,9 +11,8 @@ export const Display = () => {
 
   return(
 
-    <div id='display' className="text-end display">
-      <div className="operation"><p>{input}</p></div>
-      <div className="result"><p>{output}</p></div>
+    <div  className="text-end display">
+      <div id='display' className="result"><p>{input || output}</p></div>
     </div>
 
   );
